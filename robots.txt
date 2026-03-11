@@ -1,0 +1,27 @@
+# robots.txt for W.Z. Author Website
+# https://wzauthor.github.io/
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://wzauthor.github.io/sitemap.xml
+
+# Disallow 404 page from indexing
+Disallow: /404.html
+
+# Crawl delay for polite crawling
+Crawl-delay: 10
+
+# Specific rules for major crawlers
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
